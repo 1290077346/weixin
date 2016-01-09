@@ -1,0 +1,10 @@
+﻿<IfModule mod_rewrite.c>
+RewriteEngine on 
+RewriteRule ^index.php$ index.php?action=Weixin&class=Weixin&func=index&%{QUERY_STRING} [L]
+
+</IfModule>
+
+
+
+
+
